@@ -4,38 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description"
-        content="KridaX is an independent game studio creating relaxing, creative mobile games. Discover Cozy Room Mahjong.">
+  <title>KridaX — Indie Game Studio</title>
 
-  <meta name="theme-color" content="#0b0d12">
-
-  <meta property="og:title" content="KridaX — Game Studio">
-  <meta property="og:description"
-        content="Independent game studio creating relaxing, creative mobile games.">
-  <meta property="og:type" content="website">
-
-  <title>KridaX — Game Studio</title>
+  <meta
+    name="description"
+    content="KridaX is an indie game studio creating cozy, relaxing and enjoyable mobile games."
+  >
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ================= HEADER ================= -->
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
 
-  <header class="site-header" id="top">
-
-    <nav class="nav container">
-
-      <a class="brand" href="#top" aria-label="KridaX home">
+      <a href="#home" class="brand">
         <span class="brand-mark">K</span>
-        <span>KridaX</span>
+        <span class="brand-name">KridaX</span>
       </a>
 
       <button
         class="menu-toggle"
-        type="button"
-        aria-label="Open menu"
+        aria-label="Open navigation menu"
         aria-expanded="false"
       >
         <span></span>
@@ -43,60 +35,56 @@
         <span></span>
       </button>
 
-      <div class="nav-links">
+      <nav class="nav-links">
+        <a href="#home">Home</a>
         <a href="#games">Games</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-      </div>
 
-    </nav>
+        <a
+          href="https://sites.google.com/view/kridax-privacy-policy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy
+        </a>
+      </nav>
 
+    </div>
   </header>
 
 
-  <!-- ================= MAIN ================= -->
-
   <main>
 
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero">
-
-      <div class="hero-glow hero-glow-one"></div>
-      <div class="hero-glow hero-glow-two"></div>
-
+    <!-- Hero -->
+    <section id="home" class="hero">
       <div class="container hero-grid">
 
-        <div class="hero-copy reveal">
+        <div class="hero-content reveal">
 
-          <p class="eyebrow">
-            INDEPENDENT GAME STUDIO
-          </p>
+          <div class="eyebrow">
+            <span class="dot"></span>
+            Indie Game Studio
+          </div>
 
           <h1>
-            Small studio.<br>
+            Small studio.
             <span>Big cozy ideas.</span>
           </h1>
 
           <p class="hero-text">
-            KridaX creates simple, polished and enjoyable mobile games
-            designed to give players a little escape from the everyday.
+            KridaX creates simple, relaxing and enjoyable mobile games
+            designed to bring a little more fun to your day.
           </p>
 
-          <div class="hero-actions">
+          <div class="hero-buttons">
 
-            <a
-              class="button button-primary"
-              href="#games"
-            >
-              Explore our game
+            <a href="#games" class="primary-button">
+              Explore Our Game
+              <span>↓</span>
             </a>
 
-            <a
-              class="button button-secondary"
-              href="#about"
-            >
+            <a href="#about" class="secondary-button">
               About KridaX
             </a>
 
@@ -105,78 +93,94 @@
         </div>
 
 
-        <!-- HERO GAME IMAGE -->
-
-        <div class="hero-art reveal">
+        <div class="hero-visual reveal">
 
           <div class="hero-card">
 
-            <div class="hero-card-shine"></div>
+            <div class="hero-card-glow"></div>
 
             <img
               src="image/Store listing 1.png"
               alt="Cozy Room Mahjong"
-              class="game-icon"
             >
-
-            <div class="floating-tile tile-one">
-              🍰
-            </div>
-
-            <div class="floating-tile tile-two">
-              🪴
-            </div>
-
-            <div class="floating-tile tile-three">
-              ☕
-            </div>
 
           </div>
 
         </div>
 
       </div>
-
     </section>
 
 
-
-    <!-- ================= GAME ================= -->
-
-    <section
-      class="section games-section"
-      id="games"
-    >
+    <!-- Games -->
+    <section id="games" class="section games-section">
 
       <div class="container">
 
         <div class="section-heading reveal">
 
-          <p class="eyebrow">
-            OUR GAME
-          </p>
+          <div>
+            <div class="section-label">OUR GAMES</div>
 
-          <h2>
-            Meet Cozy Room Mahjong
-          </h2>
+            <h2>
+              Relax. Match. <span>Enjoy.</span>
+            </h2>
+          </div>
 
           <p>
-            A relaxing Mahjong-inspired tile matching puzzle
-            with beautiful layouts and satisfying gameplay.
+            Our first game is built around a simple idea:
+            create a peaceful experience that anyone can enjoy.
           </p>
 
         </div>
 
 
+        <!-- Featured Game -->
+        <div class="game-feature reveal">
 
-        <!-- GAME CARD -->
+          <div class="game-info">
 
-        <article class="game-showcase reveal">
+            <div class="game-icon">
+              <img
+                src="image/Store listing 1.png"
+                alt="Cozy Room Mahjong"
+              >
+            </div>
 
+            <div class="game-category">
+              MOBILE GAME
+            </div>
 
-          <!-- GAME MAIN IMAGE -->
+            <h3>Cozy Room Mahjong</h3>
+
+            <p>
+              Step into a cozy little world and enjoy a relaxing
+              Mahjong experience. Match tiles, clear the board and
+              take a peaceful break whenever you need one.
+            </p>
+
+            <a
+              class="play-button"
+              href="https://play.google.com/store/apps/details?id=com.kridax.cozyroommahjong"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="play-icon">▶</span>
+
+              <span>
+                <small>GET IT ON</small>
+                Google Play
+              </span>
+
+              <span class="arrow">↗</span>
+            </a>
+
+          </div>
+
 
           <div class="game-preview">
+
+            <div class="preview-glow"></div>
 
             <img
               src="image/Store listing 1.png"
@@ -185,249 +189,76 @@
 
           </div>
 
+        </div>
 
 
-          <!-- GAME INFORMATION -->
-
-          <div class="game-info">
-
-            <div class="game-title-row">
-
-              <img
-                src="image/Store listing 1.png"
-                alt="Cozy Room Mahjong icon"
-                class="small-icon"
-              >
-
-              <div>
-
-                <p class="game-label">
-                  KRIDAX
-                </p>
-
-                <h3>
-                  Cozy Room Mahjong
-                </h3>
-
-              </div>
-
-            </div>
-
-
-            <p class="game-description">
-
-              Love classic tile matching games?
-
-              Match identical tiles, clear the board,
-              and solve beautifully designed layouts.
-
-              Play for five minutes or settle in for
-              a longer puzzle session.
-
-            </p>
-
-
-
-            <!-- FEATURES -->
-
-            <div class="feature-list">
-
-              <div>
-
-                <span>✦</span>
-
-                <strong>
-                  Classic gameplay
-                </strong>
-
-                <small>
-                  Traditional Mahjong solitaire
-                  with a modern interface.
-                </small>
-
-              </div>
-
-
-              <div>
-
-                <span>◈</span>
-
-                <strong>
-                  Daily challenges
-                </strong>
-
-                <small>
-                  Fresh board setups to keep
-                  your matching skills active.
-                </small>
-
-              </div>
-
-
-              <div>
-
-                <span>⌁</span>
-
-                <strong>
-                  Play offline
-                </strong>
-
-                <small>
-                  Enjoy your puzzles without
-                  an internet connection.
-                </small>
-
-              </div>
-
-
-              <div>
-
-                <span>✿</span>
-
-                <strong>
-                  Cozy themes
-                </strong>
-
-                <small>
-                  Relaxing layouts designed
-                  for enjoyable puzzle sessions.
-                </small>
-
-              </div>
-
-            </div>
-
-
-
-            <!-- GOOGLE PLAY BUTTON -->
-
-            <a
-              class="play-button"
-              href="https://play.google.com/store/apps/details?id=com.kridax.cozyroommahjong"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <span class="play-icon">
-                ▶
-              </span>
-
-              <span>
-
-                <small>
-                  GET IT ON
-                </small>
-
-                <strong>
-                  Google Play
-                </strong>
-
-              </span>
-
-            </a>
-
-          </div>
-
-        </article>
-
-
-
-        <!-- ================= SCREENSHOTS ================= -->
-
-        <div class="screenshots reveal">
+        <!-- Screenshots -->
+        <div class="screenshots-section reveal">
 
           <div class="screenshots-heading">
 
             <div>
+              <div class="section-label">SCREENSHOTS</div>
 
-              <p class="eyebrow">
-                GAMEPLAY
-              </p>
-
-              <h3>
-                Inside Cozy Room Mahjong
-              </h3>
-
+              <h3>Take a look inside</h3>
             </div>
 
-            <p>
-              Relax, match and solve.
-            </p>
+            <div class="slider-hint">
+              ← Swipe →
+            </div>
 
           </div>
 
 
-
-          <!-- SIX SCREENSHOTS -->
-
           <div class="screenshot-grid">
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 1.png"
                 alt="Cozy Room Mahjong screenshot 1"
                 loading="lazy"
               >
-
             </div>
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 2.png"
                 alt="Cozy Room Mahjong screenshot 2"
                 loading="lazy"
               >
-
             </div>
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 3.png"
                 alt="Cozy Room Mahjong screenshot 3"
                 loading="lazy"
               >
-
             </div>
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 4.png"
                 alt="Cozy Room Mahjong screenshot 4"
                 loading="lazy"
               >
-
             </div>
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 5.png"
                 alt="Cozy Room Mahjong screenshot 5"
                 loading="lazy"
               >
-
             </div>
 
-
             <div class="screenshot-card">
-
               <img
                 src="image/Store listing 6.png"
                 alt="Cozy Room Mahjong screenshot 6"
                 loading="lazy"
               >
-
             </div>
-
 
           </div>
 
@@ -438,101 +269,55 @@
     </section>
 
 
-
-    <!-- ================= ABOUT ================= -->
-
-    <section
-      class="section about-section"
-      id="about"
-    >
+    <!-- About -->
+    <section id="about" class="section about-section">
 
       <div class="container about-grid">
 
+        <div class="about-visual reveal">
 
-        <div class="about-copy reveal">
+          <div class="about-card">
 
-          <p class="eyebrow">
+            <div class="about-logo">
+              K
+            </div>
+
+            <div class="about-logo-text">
+              <strong>KridaX</strong>
+              <span>INDIE GAME STUDIO</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+          <div class="section-label">
             ABOUT KRIDAX
-          </p>
+          </div>
 
           <h2>
-            Games made for little moments of joy.
+            Games made with
+            <span>care.</span>
           </h2>
 
           <p>
-            KridaX is an independent game studio focused
-            on creating accessible, relaxing and engaging
-            mobile experiences.
+            KridaX is an independent game studio focused on creating
+            simple, enjoyable and relaxing mobile games.
           </p>
 
           <p>
-            We like games that are easy to understand,
-            satisfying to play and polished enough to make
-            players want to come back.
+            We believe games don't always need to be complicated.
+            Sometimes the best experience is one that lets you slow
+            down, have fun and enjoy a few peaceful moments.
           </p>
 
-        </div>
-
-
-
-        <div class="values reveal">
-
-
-          <div class="value-card">
-
-            <span>
-              01
-            </span>
-
-            <h3>
-              Simple
-            </h3>
-
-            <p>
-              Easy to pick up, with depth that reveals
-              itself through play.
-            </p>
-
-          </div>
-
-
-
-          <div class="value-card">
-
-            <span>
-              02
-            </span>
-
-            <h3>
-              Thoughtful
-            </h3>
-
-            <p>
-              We care about the small details that make
-              an experience feel good.
-            </p>
-
-          </div>
-
-
-
-          <div class="value-card">
-
-            <span>
-              03
-            </span>
-
-            <h3>
-              Player-first
-            </h3>
-
-            <p>
-              Our goal is to create games people enjoy
-              returning to.
-            </p>
-
-          </div>
-
+          <p>
+            Cozy Room Mahjong is our first step, and we're excited
+            to keep creating more experiences in the future.
+          </p>
 
         </div>
 
@@ -541,111 +326,108 @@
     </section>
 
 
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
 
-    <!-- ================= CONTACT ================= -->
+      <div class="container">
 
-    <section
-      class="contact-section"
-      id="contact"
-    >
+        <div class="contact-card reveal">
 
-      <div class="container contact-card reveal">
+          <div class="contact-content">
 
-        <div>
+            <div class="section-label">
+              GET IN TOUCH
+            </div>
 
-          <p class="eyebrow">
-            GET IN TOUCH
-          </p>
+            <h2>
+              Have a question?
+              <span>Let's talk.</span>
+            </h2>
 
-          <h2>
-            Want to talk games?
-          </h2>
+            <p>
+              For support, feedback, business enquiries or anything
+              else related to KridaX, feel free to contact us.
+            </p>
 
-          <p>
-            For support, feedback, business enquiries
-            or just to say hello, send us an email.
-          </p>
+            <a
+              class="email-button"
+              href="mailto:kridaxstudio@gmail.com"
+            >
+              kridaxstudio@gmail.com
+              <span>↗</span>
+            </a>
+
+          </div>
+
+          <div class="contact-decoration">
+            <span>K</span>
+          </div>
 
         </div>
-
-
-        <a
-          class="email-button"
-          href="mailto:kridaxstudio@gmail.com"
-        >
-
-          kridaxstudio@gmail.com
-
-          <span>
-            ↗
-          </span>
-
-        </a>
 
       </div>
 
     </section>
-
 
   </main>
 
 
-
-  <!-- ================= FOOTER ================= -->
-
-  <footer class="footer">
+  <!-- Footer -->
+  <footer class="site-footer">
 
     <div class="container footer-inner">
 
+      <div class="footer-brand">
 
-      <a
-        class="brand"
-        href="#top"
-      >
+        <a href="#home" class="brand">
 
-        <span class="brand-mark">
-          K
-        </span>
+          <span class="brand-mark">K</span>
 
-        <span>
-          KridaX
-        </span>
+          <span class="brand-name">
+            KridaX
+          </span>
 
-      </a>
+        </a>
 
+        <p>
+          Indie games made with care.
+        </p>
+
+      </div>
 
 
       <div class="footer-links">
 
-        <a href="#games">
-          Games
-        </a>
+        <a href="#home">Home</a>
 
-        <a href="#about">
-          About
-        </a>
+        <a href="#games">Games</a>
 
-        <a href="mailto:kridaxstudio@gmail.com">
-          Email
+        <a href="#about">About</a>
+
+        <a href="#contact">Contact</a>
+
+        <a
+          href="https://sites.google.com/view/kridax-privacy-policy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy Policy
         </a>
 
       </div>
 
 
+      <div class="footer-copy">
 
-      <p>
-        © <span id="year"></span>
-        KridaX. All rights reserved.
-      </p>
+        © <span id="year"></span> KridaX.
+        All rights reserved.
 
+      </div>
 
     </div>
 
   </footer>
 
-
-
-  <!-- ================= JAVASCRIPT ================= -->
 
   <script src="script.js"></script>
 
