@@ -160,3 +160,7 @@ rubiconproject.com, 24600, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20014, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 28169, RESELLER, 0bfd66d529a55807
 conversantmedia.com, 41024, RESELLER, 03113cd04947736d
+inmobi.com, 09df135ee0274e15aebac0cd8cde89a0, DIRECT
+facebook.com, 1001340235673504, DIRECT
+fbadmanager.com, 1001340235673504, DIRECT
+
